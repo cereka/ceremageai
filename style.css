@@ -1,0 +1,40 @@
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.container {
+  text-align: center;
+}
+input, button {
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+}
+input {
+  width: 300px;
+}
+button {
+  background-color: #1e88e5;
+  color: white;
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
+img {
+  max-width: 100%;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+a {
+  display: block;
+  margin-top: 10px;
+  color: #90caf9;
+}

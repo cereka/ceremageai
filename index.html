@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CereMageAI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>CereMageAI</h1>
+    <p>Generate AI images using your prompt</p>
+    <input type="text" id="prompt" placeholder="Enter your prompt..." />
+    <button onclick="generateImage()">Generate</button>
+    <div id="result" class="hidden">
+      <img id="ai-image" src="" alt="Generated Image" />
+      <a id="download" href="#" download="cereimage.png">Download Image</a>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
