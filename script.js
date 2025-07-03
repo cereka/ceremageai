@@ -3,7 +3,7 @@ async function generateImage() {
   if (!prompt) return alert('Please enter a prompt.');
 
   // Replace this URL with your Make.com webhook URL
-  const webhookURL = 'rehzsxqcj94qpz4awp516qh9q7ms77vn@hook.us2.make.com';
+  const webhookURL = 'rehzsxqcj94qpz4awp516qh9q7ms77vnhook.us2.make.com';
 
   const response = await fetch(webhookURL, {
     method: 'POST',
